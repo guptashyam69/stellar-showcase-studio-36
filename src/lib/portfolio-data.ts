@@ -28,10 +28,9 @@ export const profile = {
 };
 
 export const stats = [
-  { value: 5, suffix: "+", label: "Years crafting products" },
-  { value: 80, suffix: "+", label: "Projects delivered" },
-  { value: 40, suffix: "+", label: "Happy clients" },
-  { value: 12, suffix: "", label: "Awards & features" },
+  { value: 2, suffix: "+", label: "Years Crafting Products" },
+  { value: 50, suffix: "+", label: "Projects Developed" },
+  { value: 10, suffix: "", label: "Awards & Certifications" },
 ];
 
 export const skills = [
