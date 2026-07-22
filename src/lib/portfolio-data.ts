@@ -2,14 +2,14 @@
 import profileImg from "@/assets/profile.jpg";
 
 export const profile = {
-  name: "Ayaan Rivera",
-  firstName: "Ayaan",
+  name: "Shyam Gupta",
+  firstName: "Shyam",
   role: "Web Developer · UI/UX Designer · Creative Digital Builder",
   tagline: "Designing & building premium digital experiences.",
   intro:
     "I craft high-performance websites and interfaces that blend beautiful design with clean, scalable code. From landing pages to full products — I turn ideas into experiences people remember.",
-  email: "hello@ayaan.design",
-  phone: "+1 (555) 214 8890",
+  email: "guptashyam1121@gmail.com",
+  phone: "+91 9220786079",
   location: "Remote · Available worldwide",
   resumeUrl: "#",
   photo: profileImg,
