@@ -42,6 +42,8 @@ export const skills = [
   { name: "MySQL", level: 85, color: "from-[#00758F] to-[#F29111]" },
   { name: "UI/UX Design", level: 94, color: "from-[#FF61F6] to-[#7B61FF]" },
   { name: "Responsive Design", level: 97, color: "from-[#22D3EE] to-[#818CF8]" },
+  { name: "Canva", level: 98, color: "from-[#E44D26] to-[#F16529]" },
+  { name: "Figma", level: 96, color: "from-[#264DE4] to-[#2965F1]" },
 ];
 
 export const tools = [
