@@ -104,14 +104,14 @@ export const services = [
 
 export const projects = [
   {
-    title: "Lumen — SaaS Analytics",
+    title: "Liminox",
     category: "Web App",
-    desc: "Realtime analytics dashboard with animated data viz and dark-first UI.",
-    tech: ["React", "TypeScript", "Tailwind", "Supabase"],
+    desc: "A Marketing Website for an Emerging Startup",
+    tech: ["React", "TypeScript", "Tailwind"],
     image:
-      "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=1400&q=80&auto=format&fit=crop",
-    demo: "#",
-    github: "#",
+      "https://res.cloudinary.com/dtz0urit6/image/upload/q_auto:best,f_jpg/cloudinary-tools-uploads/p81czyayzygqpsio6ie8",
+    demo: "www.liminox.live",
+    github: "https://github.com/guptashyam69/Liminox-1.git",
   },
   {
     title: "Norr — E-commerce",
