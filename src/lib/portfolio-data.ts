@@ -20,9 +20,9 @@ export const profile = {
     "Creative Digital Creator",
   ],
   socials: {
-    github: "https://github.com/",
-    linkedin: "https://linkedin.com/",
-    instagram: "https://instagram.com/",
+    github: "https://github.com/guptashyam69",
+    linkedin: "www.linkedin.com/in/shyamgupta1112",
+    instagram: "https://www.instagram.com/codecraftbuilds?igsh=eHBkbHlzZjIycGd1",
     twitter: "https://x.com/",
   },
 };
