@@ -534,7 +534,7 @@ function About() {
           </Reveal>
         </div>
 
-        <div className="mt-10 grid grid-cols-2 gap-16 md:grid-cols-4">
+        <div className="mt-10 grid grid-cols-8 gap-24 md:grid-cols-8">
           {stats.map((s, i) => (
             <Reveal key={s.label} delay={i * 0.08}>
               <div className="glass rounded-2xl p-6 text-center">
