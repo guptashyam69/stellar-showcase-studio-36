@@ -655,9 +655,7 @@ function Services() {
                     </div>
                     <h3 className="mt-5 text-lg font-semibold">{s.title}</h3>
                     <p className="mt-2 text-sm leading-relaxed text-white/65">{s.desc}</p>
-                    <div className="mt-5 inline-flex items-center gap-1 text-xs font-medium text-white/50 transition group-hover:text-white">
-                      Learn more <ArrowUpRight className="h-3.5 w-3.5" />
-                    </div>
+                   
                   </div>
                 </div>
               </Reveal>
