@@ -1,5 +1,14 @@
 // Edit this file to update all portfolio content.
 import profileImg from "@/assets/profile.jpg";
+import projectLiminox from "@/assets/projects/liminox.jpg";
+import projectNorr from "@/assets/projects/norr.jpg";
+import projectOrbit from "@/assets/projects/orbit.jpg";
+import projectKinetic from "@/assets/projects/kinetic.jpg";
+import projectHalo from "@/assets/projects/halo.jpg";
+import projectAtelier from "@/assets/projects/atelier.jpg";
+import certOpenAI from "@/assets/certs/openai-prompt.jpg";
+import certLinux from "@/assets/certs/linux-cli.jpg";
+import certSQL from "@/assets/certs/sql.jpg";
 
 export const profile = {
   name: "Shyam Gupta",
@@ -21,7 +30,7 @@ export const profile = {
   ],
   socials: {
     github: "https://github.com/guptashyam69",
-    linkedin: "www.linkedin.com/in/shyamgupta1112",
+    linkedin: "https://www.linkedin.com/in/shyamgupta1112",
     instagram: "https://www.instagram.com/codecraftbuilds?igsh=eHBkbHlzZjIycGd1",
     twitter: "https://x.com/",
   },
@@ -59,46 +68,14 @@ export const tools = [
 ];
 
 export const services = [
-  {
-    title: "Website Development",
-    desc: "Custom-coded, blazing-fast websites built with modern stacks and clean architecture.",
-    icon: "Code2",
-  },
-  {
-    title: "No-Code Development",
-    desc: "Ship production-ready sites in days using Framer, Webflow, Wix and Lovable.",
-    icon: "Wand2",
-  },
-  {
-    title: "UI/UX Design",
-    desc: "Interfaces that are intuitive, accessible and unmistakably premium.",
-    icon: "Palette",
-  },
-  {
-    title: "Landing Pages",
-    desc: "High-converting landings engineered for storytelling and speed.",
-    icon: "Rocket",
-  },
-  {
-    title: "Website Redesign",
-    desc: "Modernize tired sites into elegant, on-brand experiences.",
-    icon: "Sparkles",
-  },
-  {
-    title: "Responsive Websites",
-    desc: "Pixel-perfect across mobile, tablet, laptop and 4K displays.",
-    icon: "Smartphone",
-  },
-  {
-    title: "Portfolio Websites",
-    desc: "Personal brands that make recruiters and clients stop scrolling.",
-    icon: "User",
-  },
-  {
-    title: "Business Websites",
-    desc: "SEO-ready marketing sites that turn visitors into revenue.",
-    icon: "Briefcase",
-  },
+  { title: "Website Development", desc: "Custom-coded, blazing-fast websites built with modern stacks and clean architecture.", icon: "Code2" },
+  { title: "No-Code Development", desc: "Ship production-ready sites in days using Framer, Webflow, Wix and Lovable.", icon: "Wand2" },
+  { title: "UI/UX Design", desc: "Interfaces that are intuitive, accessible and unmistakably premium.", icon: "Palette" },
+  { title: "Landing Pages", desc: "High-converting landings engineered for storytelling and speed.", icon: "Rocket" },
+  { title: "Website Redesign", desc: "Modernize tired sites into elegant, on-brand experiences.", icon: "Sparkles" },
+  { title: "Responsive Websites", desc: "Pixel-perfect across mobile, tablet, laptop and 4K displays.", icon: "Smartphone" },
+  { title: "Portfolio Websites", desc: "Personal brands that make recruiters and clients stop scrolling.", icon: "User" },
+  { title: "Business Websites", desc: "SEO-ready marketing sites that turn visitors into revenue.", icon: "Briefcase" },
 ];
 
 export const projects = [
@@ -107,106 +84,71 @@ export const projects = [
     category: "Web App",
     desc: "A Marketing Website for an Emerging Startup",
     tech: ["React", "TypeScript", "Tailwind"],
-    image:
-      "https://res.cloudinary.com/dtz0urit6/image/upload/q_auto:best,f_jpg/cloudinary-tools-uploads/p81czyayzygqpsio6ie8",
-    demo: "www.liminox.live",
-    github: "https://github.com/guptashyam69/Liminox-1.git",
+    image: projectLiminox,
+    demo: "https://www.liminox.live",
   },
   {
     title: "Norr — E-commerce",
     category: "Storefront",
     desc: "Nordic-inspired storefront with editorial product pages and smooth checkout.",
     tech: ["Next.js", "Stripe", "Framer Motion"],
-    image:
-      "https://images.unsplash.com/photo-1483985988355-763728e1935b?w=1400&q=80&auto=format&fit=crop",
+    image: projectNorr,
     demo: "#",
-    github: "#",
   },
   {
     title: "Orbit — Studio Site",
     category: "Agency",
     desc: "Award-worthy interactive site for a creative motion studio.",
     tech: ["Framer", "GSAP", "WebGL"],
-    image:
-      "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=1400&q=80&auto=format&fit=crop",
+    image: projectOrbit,
     demo: "#",
-    github: "#",
   },
   {
     title: "Kinetic — Fintech",
     category: "Fintech",
     desc: "Investment platform with elegant onboarding and real-time portfolio views.",
     tech: ["React", "Node", "Postgres"],
-    image:
-      "https://images.unsplash.com/photo-1642104704074-907c0698cbd9?w=1400&q=80&auto=format&fit=crop",
+    image: projectKinetic,
     demo: "#",
-    github: "#",
   },
   {
     title: "Halo — Wellness App",
     category: "Mobile UI",
     desc: "Meditation companion with breath-driven micro-interactions.",
     tech: ["Figma", "React Native"],
-    image:
-      "https://images.unsplash.com/photo-1517457373958-b7bdd4587205?w=1400&q=80&auto=format&fit=crop",
+    image: projectHalo,
     demo: "#",
-    github: "#",
   },
   {
     title: "Atelier — Portfolio CMS",
     category: "No-Code",
     desc: "A no-code CMS letting creators publish stunning case studies in minutes.",
     tech: ["Webflow", "n8n"],
-    image:
-      "https://images.unsplash.com/photo-1547658719-da2b51169166?w=1400&q=80&auto=format&fit=crop",
+    image: projectAtelier,
     demo: "#",
-    github: "#",
   },
-];
-
-export const gallery = [
-  "https://images.unsplash.com/photo-1558655146-9f40138edfeb?w=900&q=80&auto=format&fit=crop",
-  "https://images.unsplash.com/photo-1559028012-481c04fa702d?w=900&q=80&auto=format&fit=crop",
-  "https://images.unsplash.com/photo-1607706189992-eae578626c86?w=900&q=80&auto=format&fit=crop",
-  "https://images.unsplash.com/photo-1587440871875-191322ee64b0?w=900&q=80&auto=format&fit=crop",
-  "https://images.unsplash.com/photo-1600132806370-bf17e65e942f?w=900&q=80&auto=format&fit=crop",
-  "https://images.unsplash.com/photo-1618761714954-0b8cd0026356?w=900&q=80&auto=format&fit=crop",
-  "https://images.unsplash.com/photo-1620121692029-d088224ddc74?w=900&q=80&auto=format&fit=crop",
-  "https://images.unsplash.com/photo-1522542550221-31fd19575a2d?w=900&q=80&auto=format&fit=crop",
-  "https://images.unsplash.com/photo-1523726491678-bf852e717f6a?w=900&q=80&auto=format&fit=crop",
 ];
 
 export const certifications = [
   {
-    name: "Google UX Design Professional",
-    org: "Google · Coursera",
-    date: "Mar 2024",
-    image:
-      "https://images.unsplash.com/photo-1606326608606-aa0b62935f2b?w=800&q=80&auto=format&fit=crop",
+    name: "Prompt Engineering & Programming with OpenAI",
+    org: "Columbia+ University",
+    date: "Credential Verified",
+    image: certOpenAI,
     link: "#",
   },
   {
-    name: "Meta Front-End Developer",
-    org: "Meta",
-    date: "Oct 2023",
-    image:
-      "https://images.unsplash.com/photo-1633356122544-f134324a6cee?w=800&q=80&auto=format&fit=crop",
-    link: "#",
+    name: "Command Line in Linux",
+    org: "Coursera",
+    date: "Credential: 7TDZEK4VAUEJ",
+    image: certLinux,
+    link: "https://www.coursera.org/account/accomplishments/verify/7TDZEK4VAUEJ",
   },
   {
-    name: "Advanced React & TypeScript",
-    org: "Frontend Masters",
-    date: "Jun 2023",
-    image:
-      "https://images.unsplash.com/photo-1550439062-609e1531270e?w=800&q=80&auto=format&fit=crop",
-    link: "#",
-  },
-  {
-    name: "Interaction Design Specialization",
-    org: "UC San Diego",
-    date: "Jan 2023",
-    image:
-      "https://images.unsplash.com/photo-1531482615713-2afd69097998?w=800&q=80&auto=format&fit=crop",
+    name: "SQL",
+    org: "United Latino Students Association",
+    date: "Credential: 52",
+    image: certSQL,
     link: "#",
   },
 ];
@@ -252,7 +194,7 @@ export const testimonials = [
     company: "Norr Studio",
     rating: 5,
     review:
-      "Ayaan translated our vision into a site that feels like a magazine and performs like an app. Instant credibility upgrade.",
+      "Shyam translated our vision into a site that feels like a magazine and performs like an app. Instant credibility upgrade.",
     photo:
       "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=300&q=80&auto=format&fit=crop",
   },
@@ -284,7 +226,6 @@ export const nav = [
   { id: "skills", label: "Skills" },
   { id: "services", label: "Services" },
   { id: "projects", label: "Projects" },
-  { id: "gallery", label: "Gallery" },
   { id: "experience", label: "Experience" },
   { id: "contact", label: "Contact" },
 ];

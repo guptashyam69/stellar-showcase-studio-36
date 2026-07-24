@@ -22,14 +22,12 @@ import {
   Star,
   User,
   Wand2,
-  X,
 } from "lucide-react";
 import { FaXTwitter } from "react-icons/fa6";
 
 import {
   certifications,
   experience,
-  gallery,
   nav,
   profile,
   projects,
@@ -709,15 +707,11 @@ function Projects() {
                   <div className="mt-6 flex gap-3">
                     <a
                       href={p.demo}
+                      target="_blank"
+                      rel="noreferrer"
                       className="inline-flex items-center gap-1.5 rounded-full bg-white px-4 py-2 text-xs font-semibold text-black transition hover:scale-[1.03]"
                     >
                       Live Demo <ExternalLink className="h-3.5 w-3.5" />
-                    </a>
-                    <a
-                      href={p.github}
-                      className="inline-flex items-center gap-1.5 rounded-full border border-white/15 bg-white/5 px-4 py-2 text-xs font-semibold text-white transition hover:bg-white/10"
-                    >
-                      <Github className="h-3.5 w-3.5" /> Code
                     </a>
                   </div>
                 </div>
@@ -730,73 +724,8 @@ function Projects() {
   );
 }
 
-/* ---------- gallery ---------- */
-
-function Gallery() {
-  const [open, setOpen] = useState<number | null>(null);
-  return (
-    <section id="gallery" className="relative py-24 md:py-32">
-      <div className="mx-auto max-w-7xl px-4 md:px-8">
-        <SectionHeading
-          eyebrow="Project Gallery"
-          title={<>A visual <span className="text-gradient">index</span>.</>}
-          desc="Click any tile to preview. Add or swap images anytime — the layout adapts."
-        />
-        <div className="columns-2 gap-4 md:columns-3 lg:columns-4 [column-fill:_balance]">
-          {gallery.map((src, i) => (
-            <motion.button
-              key={src}
-              initial={{ opacity: 0, y: 20 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
-              transition={{ delay: (i % 6) * 0.05, duration: 0.6 }}
-              onClick={() => setOpen(i)}
-              className="mb-4 block w-full overflow-hidden rounded-2xl border border-white/10 bg-white/5 [break-inside:avoid]"
-            >
-              <img
-                src={src}
-                alt=""
-                loading="lazy"
-                className="w-full transition duration-700 hover:scale-[1.03]"
-              />
-            </motion.button>
-          ))}
-        </div>
-      </div>
-
-      <AnimatePresence>
-        {open !== null && (
-          <motion.div
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            exit={{ opacity: 0 }}
-            className="fixed inset-0 z-[60] grid place-items-center bg-black/85 p-6 backdrop-blur"
-            onClick={() => setOpen(null)}
-          >
-            <motion.img
-              initial={{ scale: 0.9, opacity: 0 }}
-              animate={{ scale: 1, opacity: 1 }}
-              exit={{ scale: 0.9, opacity: 0 }}
-              src={gallery[open]}
-              alt=""
-              className="max-h-[85vh] max-w-6xl rounded-2xl object-contain shadow-2xl"
-              onClick={(e) => e.stopPropagation()}
-            />
-            <button
-              onClick={() => setOpen(null)}
-              aria-label="Close"
-              className="absolute right-6 top-6 grid h-10 w-10 place-items-center rounded-full border border-white/15 bg-white/10 text-white backdrop-blur"
-            >
-              <X className="h-4 w-4" />
-            </button>
-          </motion.div>
-        )}
-      </AnimatePresence>
-    </section>
-  );
-}
-
 /* ---------- certifications ---------- */
+
 
 function Certifications() {
   return (
@@ -1192,7 +1121,7 @@ function PortfolioPage() {
         <Tools />
         <Services />
         <Projects />
-        <Gallery />
+        
         <Certifications />
         <Experience />
         <Testimonials />
