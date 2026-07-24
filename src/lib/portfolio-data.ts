@@ -1,11 +1,11 @@
 // Edit this file to update all portfolio content.
 import profileImg from "@/assets/profile.jpg";
-import projectLiminox from "@/assets/projects/liminox.jpg";
-import projectNorr from "@/assets/projects/norr.jpg";
-import projectOrbit from "@/assets/projects/orbit.jpg";
-import projectKinetic from "@/assets/projects/kinetic.jpg";
-import projectHalo from "@/assets/projects/halo.jpg";
-import projectAtelier from "@/assets/projects/atelier.jpg";
+import projectLiminox from "@/assets/projects/liminox.png";
+import projectNorr from "@/assets/projects/2.png";
+import projectOrbit from "@/assets/projects/3.png";
+import projectKinetic from "@/assets/projects/4.png";
+import projectHalo from "@/assets/projects/5.png";
+import projectAtelier from "@/assets/projects/6.png.jpg";
 import certOpenAI from "@/assets/certs/openai-prompt.jpg";
 import certLinux from "@/assets/certs/linux-cli.jpg";
 import certSQL from "@/assets/certs/sql.jpg";
