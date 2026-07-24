@@ -158,6 +158,16 @@ export const certifications = [
 
 export const experience = [
   {
+    company: "RebelSip",
+    role: "Co-Founder & COO",
+    period: "Oct 2025 — Jul 2026",
+    desc: "Co-founded and operated a startup based in Mumbai, driving operations and growth strategy.",
+    achievements: [
+      "Led operations, strategy, and day-to-day execution as Co-Founder & COOiers.",
+      "Built the brand and business systems from the ground up in an on-site, self-employed capacity.",
+    ],
+  },
+  {
     company: "Liminox",
     role: "Chief Executive Officer (CEO)",
     period: "July 2025 — Present",
