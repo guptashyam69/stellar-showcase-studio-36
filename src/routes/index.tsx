@@ -1122,7 +1122,7 @@ function PortfolioPage() {
         <Tools />
         <Services />
         <Projects />
-        <Gallery />
+        
         <Certifications />
         <Experience />
         <Testimonials />
