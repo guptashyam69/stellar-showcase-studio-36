@@ -22,7 +22,6 @@ import {
   Star,
   User,
   Wand2,
-  X,
 } from "lucide-react";
 import { FaXTwitter } from "react-icons/fa6";
 
