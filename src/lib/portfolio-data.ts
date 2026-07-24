@@ -136,21 +136,21 @@ export const certifications = [
   {
     name: "Prompt Engineering & Programming with OpenAI",
     org: "Columbia+ University",
-    date: "Credential Verified",
+    date: "Credential ID: 156631925",
     image: certOpenAI,
     link: "#",
   },
   {
     name: "Command Line in Linux",
     org: "Coursera",
-    date: "Credential: 7TDZEK4VAUEJ",
+    date: "Credential ID: 7TDZEK4VAUEJ",
     image: certLinux,
     link: "https://www.coursera.org/account/accomplishments/verify/7TDZEK4VAUEJ",
   },
   {
     name: "SQL",
     org: "United Latino Students Association",
-    date: "Credential: 52",
+    date: "Credential ID: 52",
     image: certSQL,
     link: "#",
   },
@@ -158,23 +158,23 @@ export const certifications = [
 
 export const experience = [
   {
-    company: "RebelSip",
-    role: "Co-Founder & COO",
-    period: "Oct 2025 — Jul 2026",
-    desc: "Co-founded and operated a startup based in Mumbai, driving operations and growth strategy.",
-    achievements: [
-      "Led operations, strategy, and day-to-day execution as Co-Founder & COO.",
-      "Built the brand and business systems from the ground up in an on-site, self-employed capacity.",
-    ],
-  },
-  {
-    company: "Liminox",
+   company: "Liminox",
     role: "Chief Executive Officer (CEO)",
     period: "July 2025 — Present",
     desc: "Leading product strategy and technical execution for an emerging IoT startup.",
     achievements: [
       "Built an IoT-based water quality monitoring system from concept to prototype.",
       "Managing product vision, prototyping, and testing with target users.",
+    ],
+  },
+  {
+     company: "RebelSip",
+    role: "Co-Founder & COO",
+    period: "Oct 2025 — Jul 2026",
+    desc: "Co-founded and operated a startup based in Mumbai, driving operations and growth strategy.",
+    achievements: [
+      "Led operations, strategy, and day-to-day execution as Co-Founder & COO.",
+      "Built the brand and business systems from the ground up in an on-site, self-employed capacity.",
     ],
   },
   {
