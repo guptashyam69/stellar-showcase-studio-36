@@ -708,15 +708,11 @@ function Projects() {
                   <div className="mt-6 flex gap-3">
                     <a
                       href={p.demo}
+                      target="_blank"
+                      rel="noreferrer"
                       className="inline-flex items-center gap-1.5 rounded-full bg-white px-4 py-2 text-xs font-semibold text-black transition hover:scale-[1.03]"
                     >
                       Live Demo <ExternalLink className="h-3.5 w-3.5" />
-                    </a>
-                    <a
-                      href={p.github}
-                      className="inline-flex items-center gap-1.5 rounded-full border border-white/15 bg-white/5 px-4 py-2 text-xs font-semibold text-white transition hover:bg-white/10"
-                    >
-                      <Github className="h-3.5 w-3.5" /> Code
                     </a>
                   </div>
                 </div>
