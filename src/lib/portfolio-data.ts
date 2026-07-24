@@ -43,15 +43,18 @@ export const stats = [
 ];
 
 export const skills = [
-  { name: "HTML", level: 98, color: "from-[#E44D26] to-[#F16529]" },
-  { name: "CSS", level: 96, color: "from-[#264DE4] to-[#2965F1]" },
-  { name: "JavaScript", level: 92, color: "from-[#F7DF1E] to-[#F0C419]" },
-  { name: "PHP", level: 82, color: "from-[#8993BE] to-[#4F5D95]" },
-  { name: "MySQL", level: 85, color: "from-[#00758F] to-[#F29111]" },
-  { name: "UI/UX Design", level: 94, color: "from-[#FF61F6] to-[#7B61FF]" },
-  { name: "Responsive Design", level: 97, color: "from-[#22D3EE] to-[#818CF8]" },
-  { name: "Canva", level: 98, color: "from-[#E44D26] to-[#F16529]" },
-  { name: "Figma", level: 96, color: "from-[#264DE4] to-[#2965F1]" },
+  { name: "Web Development", level: 95, color: "from-[#22D3EE] to-[#818CF8]" },
+  { name: "Graphic Designing", level: 94, color: "from-[#FF61F6] to-[#7B61FF]" },
+  { name: "UI/UX Design", level: 92, color: "from-[#A259FF] to-[#FF61F6]" },
+  { name: "Backend Development", level: 88, color: "from-[#3ECF8E] to-[#22D3EE]" },
+  { name: "Firebase Integration", level: 86, color: "from-[#F7DF1E] to-[#F0C419]" },
+  { name: "IoT Development", level: 84, color: "from-[#264DE4] to-[#2965F1]" },
+  { name: "API Integration", level: 85, color: "from-[#8993BE] to-[#4F5D95]" },
+  { name: "Canva", level: 96, color: "from-[#00C4CC] to-[#22D3EE]" },
+  { name: "Creative Thinking", level: 93, color: "from-[#FF5C87] to-[#FFC800]" },
+  { name: "Adaptability & Multitasking", level: 91, color: "from-[#F16529] to-[#F7DF1E]" },
+  { name: "Communication", level: 90, color: "from-[#2965F1] to-[#22D3EE]" },
+  { name: "Leadership", level: 89, color: "from-[#7B61FF] to-[#FF61F6]" },
 ];
 
 export const tools = [
