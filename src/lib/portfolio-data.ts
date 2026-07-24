@@ -20,7 +20,7 @@ export const profile = {
   email: "guptashyam1121@gmail.com",
   phone: "+91 9220786079",
   location: "Remote · Available worldwide",
-  resumeUrl: "#",
+  resumeUrl: "/resume.pdf",
   photo: profileImg,
   typingRoles: [
     "Web Developer",
