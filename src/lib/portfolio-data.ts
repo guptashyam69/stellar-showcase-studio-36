@@ -158,34 +158,44 @@ export const certifications = [
 
 export const experience = [
   {
-    company: "Northwind Studio",
-    role: "Senior Product Designer & Developer",
-    period: "2023 — Present",
-    desc: "Leading design & front-end for premium SaaS and DTC brands.",
+    company: "Liminox",
+    role: "Chief Executive Officer (CEO)",
+    period: "July 2025 — Present",
+    desc: "Leading product strategy and technical execution for an emerging IoT startup.",
     achievements: [
-      "Shipped 20+ marketing sites averaging 98 Lighthouse.",
-      "Built the internal design system used across 6 products.",
-      "Mentored 4 designers into senior roles.",
+      "Built an IoT-based water quality monitoring system from concept to prototype.",
+      "Managing product vision, prototyping, and testing with target users.",
     ],
   },
   {
-    company: "Lumen Labs",
-    role: "UI/UX Designer",
-    period: "2021 — 2023",
-    desc: "Designed data-heavy dashboards and mobile experiences for fintech clients.",
+    company: "Chetana College",
+    role: "Graphic Designer",
+    period: "Feb 2025 — Present",
+    desc: "Creating visual content and brand assets for college events and campaigns.",
     achievements: [
-      "Increased activation rate by 38% via onboarding redesign.",
-      "Introduced motion guidelines across the product suite.",
+      "Created marketing materials and posters using CorelDRAW, Photoshop, and Canva.",
+      "Designed brand assets and promotional content for campus initiatives.",
     ],
   },
   {
-    company: "Freelance",
-    role: "Web Developer & Designer",
-    period: "2019 — 2021",
-    desc: "Partnered with 30+ startups shipping brand sites, landings and MVPs.",
+    company: "Austrange Solution Pvt Ltd",
+    role: "Product Development Intern",
+    period: "Sept 2025 — March 2026",
+    desc: "Contributing to product research, feature design, and technical documentation.",
     achievements: [
-      "Delivered 45+ websites on Webflow, WordPress, and custom stacks.",
-      "Featured twice on Awwwards Sites of the Day.",
+      "Conducted product research, ideation, and conceptualization of new solutions.",
+      "Designed and improved product features based on user and business needs.",
+      "Helped document technical processes, product specifications, and reports.",
+    ],
+  },
+  {
+    company: "Serve with Shradhha",
+    role: "Volunteer",
+    period: "June 2025 — Sept 2025",
+    desc: "Supporting community initiatives and digital awareness campaigns.",
+    achievements: [
+      "Served communities through outreach and support programs.",
+      "Contributed to Cyber Security Awareness campaigns and educational sessions.",
     ],
   },
 ];
