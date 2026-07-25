@@ -154,6 +154,13 @@ export const certifications = [
     image: certSQL,
     link: "#",
   },
+    {
+    name: "Prompt Engineering & Programming with OpenAI",
+    org: "Columbia+ University",
+    date: "Credential ID: 156631925",
+    image: certOpenAI,
+    link: "#",
+  },
 ];
 
 export const experience = [
