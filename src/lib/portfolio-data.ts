@@ -138,7 +138,7 @@ export const certifications = [
     org: "Columbia+ University",
     date: "Credential ID: 156631925",
     image: certOpenAI,
-    link: "#",
+    link: "/C1.png",
   },
   {
     name: "Command Line in Linux",
