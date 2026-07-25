@@ -7,8 +7,8 @@ import projectKinetic from "@/assets/projects/4.png";
 import projectHalo from "@/assets/projects/5.png";
 import projectAtelier from "@/assets/projects/6.png";
 import certOpenAI from "@/assets/certs/C1.png";
-import certLinux from "@/assets/certs/linux-cli.jpg";
-import certSQL from "@/assets/certs/sql.jpg";
+import certLinux from "@/assets/certs/C2.jpg";
+import certSQL from "@/assets/certs/C3.png";
 
 export const profile = {
   name: "Shyam Gupta",
