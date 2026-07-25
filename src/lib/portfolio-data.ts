@@ -6,7 +6,7 @@ import projectOrbit from "@/assets/projects/3.png";
 import projectKinetic from "@/assets/projects/4.png";
 import projectHalo from "@/assets/projects/5.png";
 import projectAtelier from "@/assets/projects/6.png";
-import certOpenAI from "@/assets/certs/openai-prompt.jpg";
+import certOpenAI from "@/assets/certs/C1.png";
 import certLinux from "@/assets/certs/linux-cli.jpg";
 import certSQL from "@/assets/certs/sql.jpg";
 
